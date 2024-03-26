@@ -6,24 +6,24 @@ import HelloWorld from './components/HelloWorld.vue'
 
 import BaseService from './core/services/base.service';
 import Navbar from './components/Navbar.vue';
-import Header from '@/layouts/header/Header.vue';
-import Sidebar from '@/layouts/sidebar/Sidebar.vue';
-import Footer from '@/layouts/footer/Footer.vue';
+import Header from '@/layouts/Header.vue';
+import Sidebar from '@/layouts/Sidebar.vue';
+import Footer from '@/layouts/Footer.vue';
 import DashboardView from '@/views/dashboard/DashboardView.vue';
 
 </script>
 
 <template>
-<!--Container -->
-  <div class="mx-auto bg-grey-400">
-    <!--Screen-->
-    <div class="min-h-screen flex flex-col">
-       <!--Header Section Starts Here-->
-       <Header></Header>
+ <!-- Container -->
+   <div class="mx-auto bg-grey-400">
+     <!--Screen-->
+     <div class="min-h-screen flex flex-col">
+        <!--Header Section Starts Here-->
+        <Header></Header>
         <!--/Header-->
-      <div class="flex flex-1">
-        <!--Sidebar-->
-        <Sidebar></Sidebar>
+       <div class="flex flex-1">
+         <!--Sidebar-->
+         <Sidebar></Sidebar>
         <!--/Sidebar-->
         
         <!--Main-->
@@ -32,11 +32,11 @@ import DashboardView from '@/views/dashboard/DashboardView.vue';
       </div>
 
        <!--Footer-->
-      <Footer></Footer>
-      <!--/footer-->
+       <Footer></Footer>
+       <!--/footer-->
 
-    </div>
-  </div>
+     </div>
+   </div>
   
   
 
